@@ -1,0 +1,67 @@
+@font-face {
+  font-family: speda;
+  src: url("./Speda.woff");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: cornsilk;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.equal {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.currency-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currency-rate img {
+  width: 20px;
+  margin: 10px 5px 10px 10px;
+}
+
+.today {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.to-currency {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+select {
+  padding: 5px 30px;
+}
+
+input {
+  padding: 5px 20px;
+}
+
+.to-currency img {
+  width: 30px;
+}
+.result {
+  font-size: 30px;
+}
